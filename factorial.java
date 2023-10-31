@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,5 +8,7 @@ public class factorial {
             f=f*i;
         }
         System.out.println(f);
+        sc.close();
+
     }
 }

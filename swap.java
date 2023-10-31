@@ -1,11 +1,11 @@
 public class swap {
     public static void main(String[] args) {
-        int a=10;
-        int b=20;
-        int temp;
-        temp=a;
-        a=b;
-        b=temp;
-        System.out.println(a+" "+b);
+       int[] Arr = {1,12,13};
+
+       for (int i = 0; i < Arr.length; i++) {
+         System.out.println(Math.min(Arr[i], Arr[i]));
+       }
     }
 }
+
+
